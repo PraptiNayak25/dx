@@ -21,12 +21,12 @@ public class simplecalculator {
         }
 
         // Calculate average
-        //double average = (double) sum / numbers.length;
+        double average = (double) sum / numbers.length;
 
         // Display results
        // System.out.println("Array: " + java.util.Arrays.toString(numbers));
         System.out.println("Sum: " + sum);
-        //System.out.println("Average: " + average);
+        System.out.println("Average: " + average);
         System.out.println("Maximum: " + max);
         System.out.println("Minimum: " + min);
     }
